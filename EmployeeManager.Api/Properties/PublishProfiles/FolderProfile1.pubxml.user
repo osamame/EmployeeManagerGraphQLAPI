@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Developement\Applications Training\.NetCore\EmployeeManager.GraphSql.API\EmployeeManager.Api\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-10-03T03:09:22.9936023Z;</History>
+  </PropertyGroup>
+</Project>

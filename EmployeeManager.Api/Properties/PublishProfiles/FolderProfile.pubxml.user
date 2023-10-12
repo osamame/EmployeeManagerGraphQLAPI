@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Developement\Applications Training\.NetCore\EmployeeManagerAPI\EmployeeManager.Api\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-09-27T17:35:27.6496283Z;True|2023-09-26T16:17:19.0184228+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="EmployeeManager.Data.Data.DataBaseContext">
+      <Value>Data Source=%28localdb%29\MSSQLLocalDB%3bInitial Catalog=EmplpoyeeManagerDB_MS2_Deployed%3bIntegrated Security=True%3bConnect Timeout=30%3bEncrypt=False%3bTrustServerCertificate=False%3bApplicationIntent=ReadWrite%3bMultiSubnetFailover=False</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

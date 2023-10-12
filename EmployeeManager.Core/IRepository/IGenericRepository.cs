@@ -1,0 +1,32 @@
+﻿using EmployeeManager.Core.Dto;
+using System.Linq.Expressions;
+using X.PagedList;
+
+namespace EmployeeManager.Core.IRepository
+{
+    public interface IGenericRepository<T> where T : class
+    {
+        Task<IList<T>> GetAllAsync(
+            Expression<Func<T, bool>> expression = null,
+            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            List<string> includes = null
+            );
+
+        Task<IPagedList<T>> GetAllPagenationAsync(
+            RequestParamDto requestParamDto = null,
+           List<string> includes = null
+           );
+
+        Task<T> GetAsync(Expression<Func<T, bool>> expression, List<string> includes = null);
+
+        Task InsertAsync(T entity);
+
+        Task InsertRangeAsync(IEnumerable<T> entities);
+
+        Task DeleteAsync(long Id);
+
+        void DeleteRange(IEnumerable<T> entities);
+
+        void Update(T entity);
+    }
+}
